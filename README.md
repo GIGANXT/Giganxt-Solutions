@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/B91wc5dCEBA" target="_blank">
-      <img src="https://i.ibb.co/Kqdv8j1/Image-from.png" alt="Project Banner">
+      <img src="https://ibb.co/1G5RLFjh" alt="Project Banner">
     </a>
   <br />
 
