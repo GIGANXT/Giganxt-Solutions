@@ -22,15 +22,6 @@ https://www.giganxt.me
 ✔ Dedicated team ensuring on-time project delivery  
 ✔ 100% client satisfaction with personalized support  
 
-## 📂 Project Structure
-```
-GIGANXT-Solutions/
-│-- src/            # Source code for website
-│-- public/         # Static assets
-│-- docs/           # Documentation & guides
-│-- README.md       # Project overview (this file)
-```
-
 ## 🛠️ Technologies Used
 - **Frontend:** HTML, CSS, JavaScript, React
 - **Backend:** Node.js, Express, Python (Django/Flask)
