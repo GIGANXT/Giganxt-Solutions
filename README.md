@@ -1,8 +1,7 @@
 <div align="center">
   <br />
     <a 
-      <img src="https://ibb.co/1G5RLFjh/LOGO.png" alt="Project Banner">
-    </a>
+      <img src="https://i.ibb.co/d4qkr8x1/LOGO.png" alt="LOGO" border="0">    </a>
   <br />
 
   <div>
