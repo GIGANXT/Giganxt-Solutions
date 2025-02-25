@@ -1,0 +1,9 @@
+// filepath: /c:/Users/sumit/OneDrive/Desktop/Giganxt/netlify.toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
