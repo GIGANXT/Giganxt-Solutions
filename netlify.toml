@@ -1,4 +1,3 @@
-// filepath: /c:/Users/sumit/OneDrive/Desktop/Giganxt/netlify.toml
 [build]
   command = "npm run build"
   publish = "dist"
