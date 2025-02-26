@@ -608,22 +608,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: icon_inst,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/giganxtsolutions/",
   },
   {
     id: "social-media-2",
     icon: icon_face,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/people/Giganxt-Solutions/61573524953182/",
   },
   {
     id: "social-media-3",
     icon: icon_tele,
-    link: "https://www.twitter.com/",
+    link: "https://x.com/giganxtsolution",
   },
   {
     id: "social-media-4",
     icon: icon_link,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/giganxt-solutions",
   },
 ];
 
