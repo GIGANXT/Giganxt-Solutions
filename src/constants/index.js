@@ -542,51 +542,6 @@ import React from "react";
 import Section from "./Section";
 import { socials } from "../constants";
 
-export const footerLinks = [
-  {
-    title: "Quick Links",
-    links: [
-      {
-        name: "Services",
-        link: "#services",
-      },
-      {
-        name: "Case Studies",
-        link: "#case-studies",
-      },
-      {
-        name: "Careers",
-        link: "#careers",
-      },
-      {
-        name: "Contact Us",
-        link: "#contact-us",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Events",
-        link: "#events",
-      },
-      {
-        name: "Webinars",
-        link: "#webinars",
-      },
-      {
-        name: "AI Research",
-        link: "#ai-research",
-      },
-      {
-        name: "Startup Accelerator Program",
-        link: "#startup-accelerator-program",
-      },
-    ],
-  },
-];
-
 const Footer = () => {
   return (
     <Section crosses className="!px-0 !py-10 bg-n-8 text-white">
@@ -598,26 +553,48 @@ const Footer = () => {
             Innovating with AI & Technology to Transform Businesses.
           </p>
         </div>
-        
-        {/* Dynamic Links from footerLinks */}
-        {footerLinks.map((section) => (
-          <div key={section.title}>
-            <h3 className="text-lg font-semibold">{section.title}</h3>
-            <ul className="mt-2 space-y-2">
-              {section.links.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.link}
-                    className="text-gray-400 hover:text-white"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-        
+        {/* Quick Links */}
+        <div>
+          <h3 className="text-lg font-semibold">Quick Links</h3>
+          <ul className="mt-2 space-y-2">
+            {[
+              "Services",
+              "Case Studies",
+              "Careers",
+              "Contact Us",
+            ].map((link) => (
+              <li key={link}>
+                <a
+                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
+                  className="text-gray-400 hover:text-white"
+                >
+                  {link}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        {/* Community */}
+        <div>
+          <h3 className="text-lg font-semibold">Community</h3>
+          <ul className="mt-2 space-y-2">
+            {[
+              "Events",
+              "Webinars",
+              "AI Research",
+              "Startup Accelerator Program",
+            ].map((link) => (
+              <li key={link}>
+                <a
+                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
+                  className="text-gray-400 hover:text-white"
+                >
+                  {link}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold">Stay Connected</h3>
