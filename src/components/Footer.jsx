@@ -26,7 +26,7 @@ const Footer = () => {
             ].map((link) => (
               <li key={link}>
                 <a
-                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
+                  href={#${link.toLowerCase().replace(/\s+/g, "-")}}
                   className="text-gray-400 hover:text-white"
                 >
                   {link}
@@ -48,7 +48,7 @@ const Footer = () => {
             ].map((link) => (
               <li key={link}>
                 <a
-                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
+                  href={#${link.toLowerCase().replace(/\s+/g, "-")}}
                   className="text-gray-400 hover:text-white"
                 >
                   {link}
@@ -93,4 +93,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;
