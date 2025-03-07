@@ -77,7 +77,7 @@ import {
 
   icon_inst,
   icon_face,
-  icon_x,
+  icon_tele,
   icon_link,
 
   project1,
@@ -644,7 +644,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-3",
-    icon: icon_x,
+    icon: icon_tele,
     link: "https://x.com/giganxtsolution",
   },
   {
