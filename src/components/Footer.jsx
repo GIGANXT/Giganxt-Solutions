@@ -13,6 +13,7 @@ const Footer = () => {
             Innovating with AI & Technology to Transform Businesses.
           </p>
         </div>
+
         {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold">Quick Links</h3>
@@ -25,7 +26,7 @@ const Footer = () => {
             ].map((link) => (
               <li key={link}>
                 <a
-                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
+                  href={#${link.toLowerCase().replace(/\s+/g, "-")}}
                   className="text-gray-400 hover:text-white"
                 >
                   {link}
@@ -34,6 +35,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
+
         {/* Community */}
         <div>
           <h3 className="text-lg font-semibold">Community</h3>
@@ -46,7 +48,7 @@ const Footer = () => {
             ].map((link) => (
               <li key={link}>
                 <a
-                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
+                  href={#${link.toLowerCase().replace(/\s+/g, "-")}}
                   className="text-gray-400 hover:text-white"
                 >
                   {link}
@@ -55,6 +57,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
+
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold">Stay Connected</h3>
@@ -80,6 +83,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
       <div className="container text-center text-gray-500 mt-10 border-t border-gray-700 pt-4">
         <p className="caption text-sm">
           © {new Date().getFullYear()} GIGANXT. All rights reserved.
@@ -89,4 +93,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;
