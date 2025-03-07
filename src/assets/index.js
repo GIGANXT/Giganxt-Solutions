@@ -96,7 +96,7 @@ import benefitImage11 from "./benefits/icon-10.png";
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
-import x from "./socials/x.png";
+import x from "./down/images.png";
 import twitter from "./socials/twitter.svg";
 
 import avatar1 from "./testimonials/avatar-1.png";
