@@ -1,7 +1,7 @@
-import React from "react";
-import Section from "./Section";
-import { footerLinks, socialMedia } from "../constants";
 
+import React from "react";
+import { footerLinks, socialMedia } from "../constants";
+import Section from "./Section";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-bold">GIGANXT</h2>
           <p className="text-sm text-gray-400 mt-2">
-            Innovating with AI & Technology to Transform Businesses.
+            Empower Your Business With Giganxt Solution.
           </p>
         </div>
 
