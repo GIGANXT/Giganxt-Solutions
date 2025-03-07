@@ -1,10 +1,6 @@
 import React from "react";
 import Section from "./Section";
-import { footerLinks, socialMedia } from "../constants";
-import styles from "../constants/style";
-import { logo } from "../assets";
-
-
+import { socials } from "../constants";
 
 const Footer = () => {
   return (
@@ -22,15 +18,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold">Quick Links</h3>
           <ul className="mt-2 space-y-2">
-            {[
-              "Services",
-              "Case Studies",
-              "Careers",
-              "Contact Us",
-            ].map((link) => (
+            {["Services", "Case Studies", "Careers", "Contact Us"].map((link) => (
               <li key={link}>
                 <a
-                  href={'#${link.toLowerCase().replace(/\s+/g, "-")}'}
+                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
                   className="text-gray-400 hover:text-white"
                 >
                   {link}
@@ -44,15 +35,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold">Community</h3>
           <ul className="mt-2 space-y-2">
-            {[
-              "Events",
-              "Webinars",
-              "AI Research",
-              "Startup Accelerator Program",
-            ].map((link) => (
+            {["Events", "Webinars", "AI Research", "Startup Accelerator Program"].map((link) => (
               <li key={link}>
                 <a
-                  href={'#${link.toLowerCase().replace(/\s+/g, "-")}'}
+                  href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
                   className="text-gray-400 hover:text-white"
                 >
                   {link}
@@ -97,4 +83,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;
