@@ -1,11 +1,10 @@
-
 import React from "react";
-import { footerLinks, socialMedia } from "../constants";
 import Section from "./Section";
+import { socials } from "../constants";
 
 const Footer = () => {
   return (
-    <Section crosses className="!px-0 !py-10 bg-n-8 text-white">
+    <Section crosses className="!px-0 !py-10 bg-gray-900 text-white">
       <div className="container grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Company Info */}
         <div>
@@ -56,21 +55,26 @@ const Footer = () => {
           <p className="text-sm text-gray-400">+91 XXXXXXXX</p>
           
           <div className="flex gap-4 mt-4">
-            {socials.map((item) => (
-              <a
-                key={item.id}
-                href={item.url}
-                target="_blank"
-                className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
-              >
-                <img
-                  src={item.iconUrl}
-                  width={16}
-                  height={16}
-                  alt={item.title}
-                />
-              </a>
-            ))}
+            {socials && socials.length > 0 ? (
+              socials.map((item) => (
+                <a
+                  key={item.id}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-10 h-10 bg-gray-800 rounded-full transition-colors hover:bg-gray-700"
+                >
+                  <img
+                    src={item.iconUrl}
+                    width={16}
+                    height={16}
+                    alt={item.title}
+                  />
+                </a>
+              ))
+            ) : (
+              <p className="text-gray-500">No Social Links</p>
+            )}
           </div>
         </div>
       </div>
