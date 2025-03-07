@@ -115,7 +115,7 @@ import MinusIcon from "./icons8-minus-20.png";
 
 import icon_inst from "./down/instagram.svg";
 import icon_face from "./down/facebook.svg";
-import icon_tele from "./down/x.png";
+import icon_tele from "./down/x.svg";
 import icon_link from "./down/linkedin.svg";
 import logo from "./down/logo_1.jpg";
 
