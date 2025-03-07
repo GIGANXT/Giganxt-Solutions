@@ -117,7 +117,7 @@ import icon_inst from "./down/instagram.svg";
 import icon_face from "./down/facebook.svg";
 import icon_tele from "./down/images.png";
 import icon_link from "./down/linkedin.svg";
-import logo from "./down/logo_1.jpg";
+import logo from "./down/giga.png";
 
 
 import project1 from "./Proj_img/project-1.jpg";
