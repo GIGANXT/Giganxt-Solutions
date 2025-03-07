@@ -1,6 +1,8 @@
 import React from "react";
 import Section from "./Section";
 import { footerLinks } from "../constants";
+import styles from "../constants/style";
+import { logo } from "../assets";
 
 const Footer = () => {
   return (
