@@ -37,18 +37,6 @@ Make sure you have the following installed:
 - **Python (if AI services are used)**
 - **Git**
 
-### Installation
-```sh
-git clone https://github.com/GIGANXT/Giganxt-Solutions.git
-cd Giganxt-Solutions
-npm install
-```
-
-### Run the Project
-```sh
-npm start  # For frontend
-python app.py  # If using Python backend
-```
 
 
 ## 📩 Contact Us
