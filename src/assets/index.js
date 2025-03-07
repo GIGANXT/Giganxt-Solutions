@@ -1,3 +1,4 @@
+
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -96,7 +97,7 @@ import benefitImage11 from "./benefits/icon-10.png";
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
-import x from "./socials/images.png";
+import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 import avatar1 from "./testimonials/avatar-1.png";
@@ -115,9 +116,9 @@ import MinusIcon from "./icons8-minus-20.png";
 
 import icon_inst from "./down/instagram.svg";
 import icon_face from "./down/facebook.svg";
-import icon_tele from "./down/x.png";
+import icon_tele from "./down/twitter.svg";
 import icon_link from "./down/linkedin.svg";
-import logo from "./down/giga.png";
+import logo from "./down/logo_1.jpg";
 
 
 import project1 from "./Proj_img/project-1.jpg";
@@ -255,5 +256,5 @@ export {
   facebook,
   instagram,
   telegram,
-  x,
+  twitter,
 };
