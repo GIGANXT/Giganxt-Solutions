@@ -30,35 +30,6 @@ html, body {
   height: 1px !important;
 }
 
-/* Explicit gradient definition for cross-platform compatibility */
-.gradient-border {
-  /* Fallback for browsers that don't support conic-gradient */
-  background: linear-gradient(90deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876) !important;
-  /* Modern browsers will use this */
-  background: conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876) !important;
-  border-radius: 2.5rem;
-  padding: 0.125rem;
-  position: relative;
-}
-
-.gradient-border::before {
-  content: "";
-  display: block;
-  position: absolute;
-  inset: 0.125rem;
-  background: #0E0C15;
-  border-radius: 2.4375rem;
-  z-index: 0;
-}
-
-/* Add this class to any element that needs a colorful border */
-.bg-conic-gradient {
-  /* Fallback for browsers that don't support conic-gradient */
-  background: linear-gradient(90deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876) !important;
-  /* Modern browsers will use this */
-  background: conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876) !important;
-}
-
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
