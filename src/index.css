@@ -30,20 +30,20 @@ html, body {
   height: 1px !important;
 }
 
-/* Fallback for clip-path */
-@supports not (clip-path: url(#benefits)) {
-  [style*="clip-path: url(#benefits)"] {
-    border-radius: 12px !important;
-    overflow: hidden !important;
-  }
+/* Service cards border fix */
+.service-card {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 
-/* Ensure border is visible for service cards */
-#features .border-white\/10 {
-  border-color: rgba(255, 255, 255, 0.1) !important;
-  border-width: 2px !important;
+/* Colorful border fix */
+.bg-conic-gradient {
+  background-image: conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876) !important;
 }
 
+/* Material symbols */
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
