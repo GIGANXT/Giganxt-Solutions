@@ -6,6 +6,7 @@ const Section = ({
   crosses,
   crossesOffset,
   customPaddings,
+  colorfulBorder,
   children,
 }) => {
   return (
@@ -19,17 +20,29 @@ const Section = ({
       } 
       ${className || ""}`}
     >
-      {children}
+      {colorfulBorder ? (
+        <div className="absolute inset-0 p-0.5 rounded-[2.5rem] bg-conic-gradient">
+          <div className="absolute inset-0 bg-n-8 rounded-[2.4375rem]"></div>
+        </div>
+      ) : null}
+      
+      <div className={`relative z-1 ${colorfulBorder ? "px-5 py-5 md:px-10 md:py-10" : ""}`}>
+        {children}
+      </div>
 
-      <div className="hidden absolute top-0 left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:left-7.5 xl:left-10" />
-      <div className="hidden absolute top-0 right-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5 xl:right-10" />
+      {/* Left border */}
+      <div className="absolute top-0 left-5 w-[1px] h-full bg-white/10 lg:left-7.5 xl:left-10" />
+      
+      {/* Right border */}
+      <div className="absolute top-0 right-5 w-[1px] h-full bg-white/10 lg:right-7.5 xl:right-10" />
 
       {crosses && (
         <>
+          {/* Top border */}
           <div
-            className={`hidden absolute top-0 left-7.5 right-7.5 h-0.25 bg-stroke-1 ${
+            className={`absolute top-0 left-7.5 right-7.5 h-[1px] bg-white/10 ${
               crossesOffset && crossesOffset
-            } pointer-events-none lg:block xl:left-10 right-10`}
+            } xl:left-10 xl:right-10`}
           />
           <SectionSvg crossesOffset={crossesOffset} />
         </>
