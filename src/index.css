@@ -17,19 +17,6 @@ html, body {
 @tailwind components;
 @tailwind utilities;
 
-/* Ensure borders are visible */
-.bg-white\/10 {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-}
-
-.w-\[1px\] {
-  width: 1px !important;
-}
-
-.h-\[1px\] {
-  height: 1px !important;
-}
-
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
@@ -50,7 +37,6 @@ html, body {
   body {
     @apply font-sans bg-n-14 text-n-1 text-base;
   }
-
 }
 
 @layer components {
