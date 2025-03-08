@@ -1,0 +1,56 @@
+/* Deploy-specific styles to ensure borders are visible */
+
+/* Section borders */
+.absolute {
+  position: absolute !important;
+}
+
+.top-0 {
+  top: 0 !important;
+}
+
+.left-5 {
+  left: 1.25rem !important;
+}
+
+.right-5 {
+  right: 1.25rem !important;
+}
+
+.w-\[1px\] {
+  width: 1px !important;
+}
+
+.h-full {
+  height: 100% !important;
+}
+
+.bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Service cards */
+.service-card {
+  position: relative !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 1.5rem !important;
+  overflow: hidden !important;
+}
+
+/* Colorful border */
+.bg-conic-gradient {
+  background-image: conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876) !important;
+}
+
+/* Plus symbols */
+.absolute.-top-\[0\.3125rem\] {
+  top: -0.3125rem !important;
+}
+
+.left-\[1\.5625rem\] {
+  left: 1.5625rem !important;
+}
+
+.right-\[1\.5625rem\] {
+  right: 1.5625rem !important;
+} 
