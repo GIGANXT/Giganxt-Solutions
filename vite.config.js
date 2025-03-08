@@ -13,6 +13,8 @@ export default defineConfig({
         manualChunks: undefined,
       },
     },
+    target: ['es2015', 'edge16', 'firefox60', 'chrome61', 'safari11'],
+    cssTarget: ['chrome61', 'safari11', 'firefox60', 'edge16'],
   },
   css: {
     postcss: './postcss.config.js',
