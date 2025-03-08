@@ -156,7 +156,6 @@ export const navigation = [
     title: "Contact",
     url: "#footer",
   },
-  
 ];
 
 export const heroIcons = [mongo, express, react, node];
