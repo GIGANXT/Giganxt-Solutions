@@ -1,17 +1,9 @@
-/* CSS Reset for consistent rendering */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap');
+
+
 
 @tailwind base;
 @tailwind components;
@@ -37,6 +29,7 @@ html, body {
   body {
     @apply font-sans bg-n-14 text-n-1 text-base;
   }
+
 }
 
 @layer components {
