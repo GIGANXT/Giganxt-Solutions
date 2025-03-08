@@ -1,4 +1,3 @@
-
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -33,16 +32,12 @@ import tensor from "./mern/icons8-tensorflow-100.png"
 import mathlab from "./mern/icons8-matlab-100.png"
 import giganxt from "./main_log/giganxt_log.png"
 
-
-
-
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 import job from "./hero/robot2.jpg";
 import sky from "./hero/sky.jpg";
 import plante from "./hero/plante.avif";
-
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -113,13 +108,12 @@ import avatar9 from "./testimonials/avatar-9.png";
 import PlusIcon from "./icons-plus.svg";
 import MinusIcon from "./icons8-minus-20.png";
 
-
 import icon_inst from "./down/instagram.svg";
 import icon_face from "./down/facebook.svg";
 import icon_tele from "./down/twitter.svg";
+import icon_x from "./down/x.svg";
 import icon_link from "./down/linkedin.svg";
 import logo from "./down/logo_1.jpg";
-
 
 import project1 from "./Proj_img/project-1.jpg";
 import project2 from "./Proj_img/project-2.jpg";
@@ -129,12 +123,6 @@ import project5 from "./Proj_img/project-5.jpg";
 import project6 from "./Proj_img/project-6.jpg";
 
 import llm from "./rod_img/LLM.png";
-
-
-
-
-
-
 
 export {
   llm,
@@ -178,11 +166,11 @@ export {
   icon_inst,
   icon_face,
   icon_tele,
+  icon_x,
   icon_link,
   logo,
 
   giganxt,
-
 
   project1,
   project2,
@@ -190,11 +178,6 @@ export {
   project4,
   project5,
   project6,
-
-
-
-
-
 
   PlusIcon,
   MinusIcon,
