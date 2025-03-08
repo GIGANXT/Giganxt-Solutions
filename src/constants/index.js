@@ -79,6 +79,7 @@ import {
   icon_face,
   icon_tele,
   icon_link,
+  icon_x,
 
   project1,
   project2,
@@ -184,7 +185,7 @@ export const roadmap = [
   {
     id: "0",
     title: "LLM (Large Language Model)",
-    text: "We are developing AI models based on Sanskrit's structured grammar to enhance accuracy in NLP tasks, generating precise outputs in English while leveraging Sanskrit’s linguistic rules.",
+    text: "We are developing AI models based on Sanskrit's structured grammar to enhance accuracy in NLP tasks, generating precise outputs in English while leveraging Sanskrit's linguistic rules.",
     date: "May 2025",
     status: "progress",
     imageUrl: llm,
@@ -197,6 +198,7 @@ export const roadmap = [
     date: "May 2025",
     status: "progress",
     imageUrl: roadmap2,
+    colorful: true,
   },
   {
     id: "2",
@@ -205,6 +207,7 @@ export const roadmap = [
     date: "Feb 2025",
     status: "done",
     imageUrl: roadmap3,
+    colorful: true,
   },
   {
     id: "3",
@@ -213,6 +216,7 @@ export const roadmap = [
     date: "May 2025",
     status: "progress",
     imageUrl: roadmap4,
+    colorful: true,
   },
 ];
 
@@ -617,7 +621,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-3",
-    icon: icon_tele,
+    icon: icon_x,
     link: "https://x.com/giganxtsolution",
   },
   {
