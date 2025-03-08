@@ -1,13 +1,34 @@
+/* CSS Reset for consistent rendering */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap');
 
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Ensure borders are visible */
+.bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.w-\[1px\] {
+  width: 1px !important;
+}
+
+.h-\[1px\] {
+  height: 1px !important;
+}
 
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
