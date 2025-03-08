@@ -21,8 +21,8 @@ const Section = ({
       ${className || ""}`}
     >
       {colorfulBorder ? (
-        <div className="absolute inset-0 p-0.5 rounded-[2.5rem] bg-conic-gradient">
-          <div className="absolute inset-0 bg-n-8 rounded-[2.4375rem]"></div>
+        <div className="absolute inset-0 gradient-border">
+          <div className="relative z-1 h-full w-full"></div>
         </div>
       ) : null}
       
